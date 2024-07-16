@@ -1,6 +1,7 @@
 // Rust Print Example Series
 
-// Series 1: Basic Printing
+### Series 1: Basic Printing
+```rust
 fn main() {
     // Print without newline
     print!("I am energetic!");
@@ -65,8 +66,9 @@ fn main() {
     #[cfg(not(debug_assertions))]
     println!("This is a release build");
 }
-
-// Series 2: Writing to stdout
+```
+### Series 2: Writing to stdout
+```rust
 use std::io::{self, Write};
 
 fn main() {
@@ -74,8 +76,9 @@ fn main() {
     write!(stdout, "Hello, ").unwrap();
     writeln!(stdout, "world!").unwrap();
 }
-
-// Series 3: Writing to a buffer
+```
+### Series 3: Writing to a buffer
+```rust
 use std::fmt::Write;
 
 fn main() {
@@ -84,8 +87,9 @@ fn main() {
     writeln!(buffer, "output!").unwrap();
     println!("{}", buffer);
 }
-
-// Series 4: Printing a single environment variable
+```
+### Series 4: Printing a single environment variable
+```rust
 use std::env;
 
 fn main() {
@@ -95,8 +99,9 @@ fn main() {
         println!("USER environment variable is not set.");
     }
 }
-
-// Series 5: Printing multiple environment variables
+```
+### Series 5: Printing multiple environment variables
+```rust
 use std::env;
 
 fn main() {
@@ -108,8 +113,9 @@ fn main() {
     println!("Home directory: {}", home);
     println!("Shell: {}", shell);
 }
-
-// Series 6: Function to print an environment variable
+```
+### Series 6: Function to print an environment variable
+```rust
 use std::env;
 
 fn print_env_var(key: &str) {
@@ -124,8 +130,9 @@ fn main() {
     print_env_var("HOME");
     print_env_var("SHELL");
 }
-
-// Series 7: Iterating over all environment variables
+```
+### Series 7: Iterating over all environment variables
+```rust
 use std::env;
 
 fn main() {
@@ -133,8 +140,9 @@ fn main() {
         println!("{}: {}", key, value);
     }
 }
-
-// Series 8: Filtering environment variables
+```
+### Series 8: Filtering environment variables
+```rust
 use std::env;
 
 fn main() {
@@ -145,8 +153,9 @@ fn main() {
         }
     }
 }
-
-// Series 9: Conditional behavior based on an environment variable
+```
+### Series 9: Conditional behavior based on an environment variable
+```rust
 use std::env;
 
 fn main() {
@@ -160,8 +169,9 @@ fn main() {
         println!("DEBUG environment variable is not set.");
     }
 }
-
-// Series 10: Setting and printing environment variables
+```
+### Series 10: Setting and printing environment variables
+```rust
 use std::env;
 
 fn main() {
@@ -172,3 +182,4 @@ fn main() {
         println!("MY_VAR environment variable is not set.");
     }
 }
+```
