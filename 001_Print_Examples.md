@@ -1,5 +1,3 @@
-// Rust Print Example Series
-
 ### Series 1: Basic Printing
 ```rust
 fn main() {
