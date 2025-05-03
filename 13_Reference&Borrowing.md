@@ -1,4 +1,3 @@
-````markdown
 # 📌 Reference and Borrowing in Rust
 
 In Rust, *ownership* ensures memory safety without needing a garbage collector. One core part of ownership is the concept of **borrowing** through **references**.
