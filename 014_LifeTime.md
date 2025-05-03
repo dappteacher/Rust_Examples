@@ -177,5 +177,3 @@ Understanding lifetimes will help you write safer, more reliable Solana smart co
 * Experiment with mutable and immutable borrows inside functions.
 
 Happy Rusting 🦀
-
-```
