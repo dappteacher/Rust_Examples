@@ -23,4 +23,16 @@ git clone https://github.com/dappteacher/rust-examples.git
 cd rust-examples
 ```
 
+---
+
+# Author
+
+Yaghoub Adelzadeh
+Blockchain Engineer
+
+GitHub
+[https://github.com/dappteacher](https://github.com/dappteacher)
+
+---
+
 Happy coding!
